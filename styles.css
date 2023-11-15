@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color: darkgray;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.english, .spanish, .japanese {
+    padding: 32px;
+    cursor: pointer;
+}
+
+.me {
+    border-radius: 256px;
+    display: block;
+    margin: auto;
+    width: 256px;
+}
+
+.name {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
