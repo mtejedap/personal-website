@@ -3,46 +3,120 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
 ol, ul {
     list-style: none;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: center;
+body {
+    height: 100%;
+    background-color: #212529;
+    color: white;
 }
 
-.header {
-    background-color: darkgray;
-    display: inline-flex;
+.wrapper {
+    margin-top: 16px;
+    margin-bottom: 64px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.header {
+    background-color: #495057;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 16px;
+}
+
 .english, .spanish, .japanese {
-    padding: 32px;
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
     cursor: pointer;
+    border-radius: 16px;
+}
+
+.active {
+    background-color: #343a40;
 }
 
 .me {
-    border-radius: 256px;
+    border-radius: 200px;
     display: block;
     margin: auto;
-    width: 256px;
+    width: 200px;
 }
 
 .name {
+    font-size: 2rem;
+    margin-top: 32px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
 .title {
+    font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .links {
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 32px;
+}
+
+.email-icon, .resume-icon {
+    color: #fff;
+    transition: color ease 0.25s;
+}
+
+.github-icon svg .github-path, .linkedin-icon svg .linkedin-path {
+    fill: #fff;
+    transition: fill ease 0.25s;
+}
+
+.github-icon:hover svg .github-path {
+    fill: #495057;
+}
+
+.linkedin-icon:hover svg .linkedin-path {
+    fill: #007EBB;
+}
+
+.email-icon:hover {
+    color: #08d9ff;
+}
+
+.resume-icon:hover {
+    color: #F40F02;
+}
+
+.about-wrapper {
+    background-color: #fff;
+    color: black;
+}
+
+.about-header {
+    padding-top: 32px;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.about-body {
+    font-size: 1.25rem;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 32px;
+}
+
+.copyright {
+    padding-block: 8px;
+    text-align: center;
 }
