@@ -48,7 +48,7 @@ japanese.addEventListener("click", () => {
     english.classList.remove("active");
     spanish.classList.remove("active");
     japanese.classList.add("active");
-    document.querySelector(".name").textContent = "マティアス テジェダ アスタブルアガ";
+    document.querySelector(".name").textContent = "マティアス・テジェダ・アスタブルアガ";
     document.querySelector(".title").textContent = "ソフトウェアエンジニア";
     document.querySelector(".about-header").textContent = "私について";
     document.querySelector(".about-body").textContent = "初めまして、マティアスです！私はパデュー大学" + 
@@ -59,6 +59,6 @@ japanese.addEventListener("click", () => {
         "、さまざまなテクノロジーに精通しており、3 つの異なる言語での多言語コミュニケーション能力を備えているため" + 
         "、学術的な厳格さと情熱をやりがいのある専門的な役割に注ぎたいと考えています。 私の作品をご覧になりたい場合、" + 
         "または私と話したい場合は、上のアイコンをクリックしてください。";
-    document.querySelector(".copyright").textContent = "© 2023 マティアス テジェダ アスタブルアガ | " + 
+    document.querySelector(".copyright").textContent = "© 2023 マティアス・テジェダ・アスタブルアガ | " + 
     "HTMLとCSSとJavaScriptで作りました";
 });
