@@ -40,6 +40,11 @@ body {
     padding: 16px 32px;
     cursor: pointer;
     border-radius: 16px;
+    transition: background-color ease 0.25s;
+}
+
+.english:hover, .spanish:hover, .japanese:hover {
+    background-color: #343a40;
 }
 
 .active {
@@ -145,6 +150,10 @@ body {
 .copyright {
     padding-block: 8px;
     text-align: center;
+}
+
+.update-text {
+    transition: opacity ease 0.5s;
 }
 
 @media (max-width: 600px) {
