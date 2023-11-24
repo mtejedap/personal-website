@@ -8,6 +8,7 @@ english.addEventListener("click", () => {
     japanese.classList.remove("active");
     document.querySelector(".name").textContent = "Matias Tejeda Astaburuaga";
     document.querySelector(".title").textContent = "Software Engineer";
+    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume (English)");
     document.querySelector(".about-header").textContent = "About Me";
     document.querySelector(".about-body").textContent = "Hi, I'm Matias! I'm a senior student from " + 
     "Purdue University majoring in Computer Science and an aspiring professional in the " + 
@@ -29,6 +30,7 @@ spanish.addEventListener("click", () => {
     japanese.classList.remove("active");
     document.querySelector(".name").textContent = "Matias Tejeda Astaburuaga";
     document.querySelector(".title").textContent = "Ingeniero de Software";
+    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga CV (Español)");
     document.querySelector(".about-header").textContent = "Acerca de mí";
     document.querySelector(".about-body").textContent = "¡Hola, soy Matias! Soy un estudiante de " + 
         "último año en Purdue University con especialización en Ciencias de la Computación " + 
@@ -52,6 +54,7 @@ japanese.addEventListener("click", () => {
     japanese.classList.add("active");
     document.querySelector(".name").textContent = "マティアス・テジェダ・アスタブルアガ";
     document.querySelector(".title").textContent = "ソフトウェアエンジニア";
+    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume (English)");
     document.querySelector(".about-header").textContent = "私について";
     document.querySelector(".about-body").textContent = "初めまして、マティアスです！私はパデュー大学" + 
         "の四年生で、コンピュータ科学を専攻して、テクノロジーの世界におけるプロフェッショナルを目指しています。" + 
