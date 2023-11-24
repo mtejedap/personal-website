@@ -18,6 +18,7 @@ english.addEventListener("click", () => {
     "well-versed in diverse technologies, and possessing a multilingual communication proficiency " + 
     "in 3 different languages, I'm eager to channel my academic rigor and passion into a challenging " + 
     "professional role. If you'd like to check out my work or talk to me, please click the icons above!";
+    document.querySelector(".projects-header").textContent = "Projects";
     document.querySelector(".copyright").textContent = "© 2023 Matias Tejeda Astaburuaga | " + 
     "Made with HTML & CSS & JavaScript";
 });
@@ -40,6 +41,7 @@ spanish.addEventListener("click", () => {
         "multilingüe en 3 idiomas diferentes, estoy ansioso por canalizar mi rigor académico y mi " + 
         "pasión en un rol profesional desafiante. Si desea ver mi trabajo o hablar conmigo, " + 
         "¡Haga click en los íconos de arriba!";
+    document.querySelector(".projects-header").textContent = "Proyectos";
     document.querySelector(".copyright").textContent = "© 2023 Matias Tejeda Astaburuaga | " + 
     "Hecho con HTML & CSS & JavaScript";
 });
