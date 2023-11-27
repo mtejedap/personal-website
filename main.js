@@ -167,7 +167,7 @@ japanese.addEventListener("click", () => {
     const projectsHeader = document.querySelector(".projects-header");
     projectsHeader.style.opacity = "0";
     setTimeout(() => {
-        projectsHeader.textContent = "Proyectos";
+        projectsHeader.textContent = "プロジェクト";
         projectsHeader.style.opacity = "1";
     }, 500);
 
