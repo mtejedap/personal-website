@@ -55,7 +55,7 @@ english.addEventListener("click", () => {
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
-        copyright.textContent = "© 2023 Matias Tejeda Astaburuaga | " + 
+        copyright.textContent = "© 2024 Matias Tejeda Astaburuaga | " + 
         "Made with HTML & CSS & JavaScript";
         copyright.style.opacity = "1";
     }, 500);
@@ -116,7 +116,7 @@ spanish.addEventListener("click", () => {
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
-        copyright.textContent = "© 2023 Matias Tejeda Astaburuaga | " + 
+        copyright.textContent = "© 2024 Matias Tejeda Astaburuaga | " + 
             "Hecho con HTML & CSS & JavaScript";
         copyright.style.opacity = "1";
     }, 500);
@@ -174,7 +174,7 @@ japanese.addEventListener("click", () => {
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
-        copyright.textContent = "© 2023 マティアス・テジェダ・アスタブルアガ | " + 
+        copyright.textContent = "© 2024 マティアス・テジェダ・アスタブルアガ | " + 
         "HTMLとCSSとJavaScriptで作りました";
         copyright.style.opacity = "1";
     }, 500);
