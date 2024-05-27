@@ -33,9 +33,9 @@ english.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "Hi, I'm Matias! I'm a Software Engineer with a Bachelor's degree in Computer Science from Purdue University." +
-            "I love playing around with computers and finding creative solutions to challenging problems. My areas of expertise include full-stack applications," +
-            "operating systems, computer networks, and embedded systems. In my spare time, I like to work on personal projects or research interesting technologies" +
+        aboutBody.textContent = "Hi, I'm Matias! I'm a Software Engineer with a Bachelor's degree in Computer Science from Purdue University. " +
+            "I love playing around with computers and finding creative solutions to challenging problems. My areas of expertise include full-stack applications, " +
+            "operating systems, computer networks, and embedded systems. In my spare time, I like to work on personal projects or research interesting technologies " +
             "to expand my skills. If you'd like to check out my work or talk to me, please click the icons above!";
         aboutBody.style.opacity = "1";
     }, 500);
@@ -87,10 +87,10 @@ spanish.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "¡Hola, soy Matías! Soy un ingeniero de software con una licenciatura en Ciencias de Computación de Purdue University." +
-            "Me encanta jugar con las computadoras y encontrar soluciones creativas a problemas desafiantes. Mis áreas de especialización" +
-            "incluyen aplicaciones full-stack, sistemas operativos, redes informáticas y sistemas integrados. En mi tiempo libre, me gusta" +
-            "trabajar en proyectos personales o investigar tecnologías interesantes para ampliar mis habilidades. Si desea ver mi trabajo" +
+        aboutBody.textContent = "¡Hola, soy Matías! Soy un ingeniero de software con una licenciatura en Ciencias de Computación de Purdue University. " +
+            "Me encanta jugar con las computadoras y encontrar soluciones creativas a problemas desafiantes. Mis áreas de especialización " +
+            "incluyen aplicaciones full-stack, sistemas operativos, redes informáticas y sistemas integrados. En mi tiempo libre, me gusta " +
+            "trabajar en proyectos personales o investigar tecnologías interesantes para ampliar mis habilidades. Si desea ver mi trabajo " +
             "o hablar conmigo, ¡haga click en los íconos de arriba!";
         aboutBody.style.opacity = "1";
     }, 500);
