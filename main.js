@@ -33,15 +33,10 @@ english.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "Hi, I'm Matias! I'm a senior student from " + 
-            "Purdue University majoring in Computer Science and an aspiring professional in the " + 
-            "world of technology. While my professional journey may lack extensive industry " + 
-            "experience, my academic pursuits, fortified by relentless dedication and a hunger for knowledge, " + 
-            "equip me with a solid foundation and a holistic skill set necessary to excel in the dynamic " + 
-            "landscape of the technology industry. Competent in multiple programming languages, " + 
-            "well-versed in diverse technologies, and possessing a multilingual communication proficiency " + 
-            "in 3 different languages, I'm eager to channel my academic rigor and passion into a challenging " + 
-            "professional role. If you'd like to check out my work or talk to me, please click the icons above!";
+        aboutBody.textContent = "Hi, I'm Matias! I'm a Software Engineer with a Bachelor's degree in Computer Science from Purdue University. 
+            I love playing around with computers and finding creative solutions to challenging problems. My areas of expertise include full-stack applications, 
+            operating systems, computer networks, and embedded systems. In my spare time, I like to work on personal projects or research interesting technologies 
+            to expand my skills. If you'd like to check out my work or talk to me, please click the icons above!";
         aboutBody.style.opacity = "1";
     }, 500);
 
@@ -92,17 +87,11 @@ spanish.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "¡Hola, soy Matias! Soy un estudiante de " + 
-            "último año en Purdue University con especialización en Ciencias de la Computación " + 
-            "y un aspirante a profesional en el mundo de la tecnología. Si bien mi trayectoria profesional " + 
-            "puede carecer de una amplia experiencia en la industria, mis actividades académicas, " + 
-            "fortalecidas por una dedicación incesante y un hambre de conocimiento, me dotan de " + 
-            "una base sólida y un conjunto de habilidades holísticas necesarias para sobresalir " + 
-            "en el panorama dinámico de la industria de la tecnología. Competente en múltiples lenguajes " + 
-            "de programación, bien versado en diversas tecnologías y con dominio de la comunicación " + 
-            "multilingüe en 3 idiomas diferentes, estoy ansioso por canalizar mi rigor académico y mi " + 
-            "pasión en un rol profesional desafiante. Si desea ver mi trabajo o hablar conmigo, " + 
-            "¡Haga click en los íconos de arriba!";
+        aboutBody.textContent = "¡Hola, soy Matías! Soy un ingeniero de software con una licenciatura en Ciencias de Computación de Purdue University. 
+            Me encanta jugar con las computadoras y encontrar soluciones creativas a problemas desafiantes. Mis áreas de especialización 
+            incluyen aplicaciones full-stack, sistemas operativos, redes informáticas y sistemas integrados. En mi tiempo libre, me gusta 
+            trabajar en proyectos personales o investigar tecnologías interesantes para ampliar mis habilidades. Si desea ver mi trabajo 
+            o hablar conmigo, ¡haga click en los íconos de arriba!";
         aboutBody.style.opacity = "1";
     }, 500);
 
@@ -153,14 +142,11 @@ japanese.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "初めまして、マティアスです！私はパデュー大学" + 
-            "の四年生で、コンピュータ科学を専攻して、テクノロジーの世界におけるプロフェッショナルを目指しています。" + 
-            "私の職業上のキャリアには豊富な業界経験が不足しているかもしれませんが、私の学業は、" + 
-            "絶え間ない献身と知識への渇望によって強化されており、テクノロジー業界のダイナミックな状況で優れている" + 
-            "ために必要な強固な基礎と総合的なスキルセットを私に備えさせてくれます。私は複数のプログラミング言語に対応し" + 
-            "、さまざまなテクノロジーに精通しており、3 つの異なる言語での多言語コミュニケーション能力を備えているため" + 
-            "、学術的な厳格さと情熱をやりがいのある専門的な役割に注ぎたいと考えています。 私の作品をご覧になりたい場合、" + 
-            "または私と話したい場合は、上のアイコンをクリックしてください。";
+        aboutBody.textContent = "こんにちは、マティアスです。私は、パデュー大学でコンピューターサイエンスの学士号を取得したソフトウェアエン
+            ジニアです。コンピューターをいじったり、難しい問題に独創的な解決策を見つけたりするのが大好きです。私の専門分野は、フルスタックアプ
+            リケーション、オペレーティングシステム、コンピューターネットワーク、組み込みシステムです。余暇には、個人的なプロジェクトに取り組ん
+            だり、興味深いテクノロジーを研究してスキルを伸ばすのが好きです。私の作品をご覧になりたい場合や、私と話したい場合は、上のアイコ
+            ンをクリックしてください。";
         aboutBody.style.opacity = "1";
     }, 500);
 
