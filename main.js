@@ -21,7 +21,7 @@ english.addEventListener("click", () => {
         title.style.opacity = "1";
     }, 500);
 
-    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume (English).pdf");
+    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume.pdf");
     
     const aboutHeader = document.querySelector(".about-header");
     aboutHeader.style.opacity = "0";
@@ -75,7 +75,7 @@ spanish.addEventListener("click", () => {
         title.style.opacity = "1";
     }, 500);
 
-    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga CV (Español).pdf");
+    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga CV.pdf");
 
     const aboutHeader = document.querySelector(".about-header");
     aboutHeader.style.opacity = "0";
@@ -130,7 +130,7 @@ japanese.addEventListener("click", () => {
         title.style.opacity = "1";
     }, 500);
 
-    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume (English).pdf");
+    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume.pdf");
     
     const aboutHeader = document.querySelector(".about-header");
     aboutHeader.style.opacity = "0";
