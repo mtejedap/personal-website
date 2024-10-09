@@ -124,6 +124,7 @@ body {
     font-size: 1.25rem;
     margin: auto;
     width: 60%;
+    line-height: 1.5;
 }
 
 .projects-grid {
