@@ -40,12 +40,12 @@ english.addEventListener("click", () => {
         aboutBody.style.opacity = "1";
     }, 500);
 
-    const projectsHeader = document.querySelector(".projects-header");
-    projectsHeader.style.opacity = "0";
-    setTimeout(() => {
-        projectsHeader.textContent = "Projects";
-        projectsHeader.style.opacity = "1";
-    }, 500);
+    // const projectsHeader = document.querySelector(".projects-header");
+    // projectsHeader.style.opacity = "0";
+    // setTimeout(() => {
+    //     projectsHeader.textContent = "Projects";
+    //     projectsHeader.style.opacity = "1";
+    // }, 500);
 
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
@@ -95,12 +95,12 @@ spanish.addEventListener("click", () => {
         aboutBody.style.opacity = "1";
     }, 500);
 
-    const projectsHeader = document.querySelector(".projects-header");
-    projectsHeader.style.opacity = "0";
-    setTimeout(() => {
-        projectsHeader.textContent = "Proyectos";
-        projectsHeader.style.opacity = "1";
-    }, 500);
+    // const projectsHeader = document.querySelector(".projects-header");
+    // projectsHeader.style.opacity = "0";
+    // setTimeout(() => {
+    //     projectsHeader.textContent = "Proyectos";
+    //     projectsHeader.style.opacity = "1";
+    // }, 500);
 
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
@@ -150,12 +150,12 @@ japanese.addEventListener("click", () => {
         aboutBody.style.opacity = "1";
     }, 500);
 
-    const projectsHeader = document.querySelector(".projects-header");
-    projectsHeader.style.opacity = "0";
-    setTimeout(() => {
-        projectsHeader.textContent = "プロジェクト";
-        projectsHeader.style.opacity = "1";
-    }, 500);
+    // const projectsHeader = document.querySelector(".projects-header");
+    // projectsHeader.style.opacity = "0";
+    // setTimeout(() => {
+    //     projectsHeader.textContent = "プロジェクト";
+    //     projectsHeader.style.opacity = "1";
+    // }, 500);
 
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
