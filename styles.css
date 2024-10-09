@@ -109,6 +109,10 @@ body {
     color: black;
 }
 
+.about-wrapper {
+    padding-bottom: 32px;
+}
+
 .about-header, .projects-header {
     padding-top: 32px;
     font-size: 1.75rem;
