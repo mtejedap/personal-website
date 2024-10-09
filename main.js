@@ -17,7 +17,7 @@ english.addEventListener("click", () => {
     const title = document.querySelector(".title");
     title.style.opacity = "0";
     setTimeout(() => {
-        title.textContent = "Software Engineer";
+        title.textContent = "Jr Full Stack Engineer";
         title.style.opacity = "1";
     }, 500);
 
@@ -71,7 +71,7 @@ spanish.addEventListener("click", () => {
     const title = document.querySelector(".title");
     title.style.opacity = "0";
     setTimeout(() => {
-        title.textContent = "Ingeniero de Software";
+        title.textContent = "Jr Full Stack Engineer";
         title.style.opacity = "1";
     }, 500);
 
@@ -126,7 +126,7 @@ japanese.addEventListener("click", () => {
     const title = document.querySelector(".title");
     title.style.opacity = "0";
     setTimeout(() => {
-        title.textContent = "ソフトウェアエンジニア";
+        title.textContent = "ジュニアフルスタックエンジニア";
         title.style.opacity = "1";
     }, 500);
 
