@@ -1,6 +1,30 @@
 const english = document.querySelector(".english");
 const spanish = document.querySelector(".spanish");
 const japanese = document.querySelector(".japanese");
+const githubIcon = document.querySelector(".github-icon");
+const linkedinIcon = document.querySelector(".linkedin-icon");
+const emailIcon = document.querySelector(".email-icon");
+const resumeIcon = document.querySelector(".resume-icon");
+
+githubIcon.addEventListener("click", () => {
+    gtag('event', 'github_visit', {
+    });
+});
+
+linkedinIcon.addEventListener("click", () => {
+    gtag('event', 'linkedin_visit', {
+    });
+});
+
+emailIcon.addEventListener("click", () => {
+    gtag('event', 'email_visit', {
+    });
+});
+
+resumeIcon.addEventListener("click", () => {
+    gtag('event', 'resume_visit', {
+    });
+});
 
 english.addEventListener("click", () => {
     english.classList.add("active");
