@@ -41,7 +41,7 @@ english.addEventListener("click", () => {
     const title = document.querySelector(".title");
     title.style.opacity = "0";
     setTimeout(() => {
-        title.textContent = "Full Stack Engineer";
+        title.textContent = "Software Engineer";
         title.style.opacity = "1";
     }, 500);
 
@@ -57,10 +57,15 @@ english.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "Hi, I'm Matias! I'm a Software Engineer with a Bachelor's degree in Computer Science from Purdue University. " +
-            "I love playing around with computers and finding creative solutions to challenging problems. My areas of expertise include full-stack applications, " +
-            "operating systems, computer networks, and embedded systems. In my spare time, I like to work on personal projects or research interesting technologies " +
-            "to expand my skills. If you'd like to check out my work or talk to me, please click the icons above!";
+        aboutBody.textContent = "Hi, I'm Matias! I'm a Software Engineer with over 1 year of experience " +
+            "and a Bachelor's degree in Computer Science from Purdue University. " +
+            "I love playing around with computers and finding creative solutions " +
+            "to challenging problems. My areas of expertise include Full-Stack " +
+            "(Back-End and Front-End) Applications, DevOps Engineering, Operating " +
+            "Systems, Computer Networks, and Embedded Systems. In my spare time, " +
+            "I like to work on personal projects or research interesting technologies " +
+            "to expand my skills. If you'd like to check out my work or talk to me, " +
+            "please click the icons above!";
         aboutBody.style.opacity = "1";
     }, 500);
 
@@ -74,7 +79,7 @@ english.addEventListener("click", () => {
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
-        copyright.textContent = "© 2024 Matias Tejeda Astaburuaga | " + 
+        copyright.textContent = "© 2025 Matias Tejeda Astaburuaga | " + 
         "Made with HTML & CSS & JavaScript";
         copyright.style.opacity = "1";
     }, 500);
@@ -95,7 +100,7 @@ spanish.addEventListener("click", () => {
     const title = document.querySelector(".title");
     title.style.opacity = "0";
     setTimeout(() => {
-        title.textContent = "Full Stack Engineer";
+        title.textContent = "Ingeniero de Software";
         title.style.opacity = "1";
     }, 500);
 
@@ -111,11 +116,13 @@ spanish.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "¡Hola, soy Matías! Soy un ingeniero de software con una licenciatura en Ciencias de Computación de Purdue University. " +
-            "Me encanta jugar con las computadoras y encontrar soluciones creativas a problemas desafiantes. Mis áreas de especialización " +
-            "incluyen aplicaciones full-stack, sistemas operativos, redes informáticas y sistemas integrados. En mi tiempo libre, me gusta " +
-            "trabajar en proyectos personales o investigar tecnologías interesantes para ampliar mis habilidades. Si desea ver mi trabajo " +
-            "o hablar conmigo, ¡haga click en los íconos de arriba!";
+        aboutBody.textContent = "¡Hola! Soy Matías, un Ingeniero de Software con más de un año de experiencia " +
+            "y un título en Ciencias de la Computación de Purdue University. " +
+            "Me apasiona experimentar con los computadores y encontrar soluciones creativas a problemas desafiantes. " +
+            "Mis áreas de especialidad incluyen las Aplicaciones Full-Stack (Back-End y Front-End), " +
+            "Ingeniería DevOps, Sistemas Operativos, Redes de Computadores y Sistemas Embebidos. " +
+            "En mi tiempo libre me gusta trabajar en proyectos personales o investigar tecnologías interesantes " +
+            "para seguir ampliando mis habilidades. Si desea ver mi trabajo o hablar conmigo, ¡haga click en los íconos de arriba!";
         aboutBody.style.opacity = "1";
     }, 500);
 
@@ -129,7 +136,7 @@ spanish.addEventListener("click", () => {
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
-        copyright.textContent = "© 2024 Matias Tejeda Astaburuaga | " + 
+        copyright.textContent = "© 2025 Matias Tejeda Astaburuaga | " + 
             "Hecho con HTML & CSS & JavaScript";
         copyright.style.opacity = "1";
     }, 500);
@@ -150,7 +157,7 @@ japanese.addEventListener("click", () => {
     const title = document.querySelector(".title");
     title.style.opacity = "0";
     setTimeout(() => {
-        title.textContent = "フルスタックエンジニア";
+        title.textContent = "ソフトウェアエンジニア";
         title.style.opacity = "1";
     }, 500);
 
@@ -166,11 +173,11 @@ japanese.addEventListener("click", () => {
     const aboutBody = document.querySelector(".about-body");
     aboutBody.style.opacity = "0";
     setTimeout(() => {
-        aboutBody.textContent = "こんにちは、マティアスです。私は、パデュー大学でコンピューターサイエンスの学士号を取得したソフトウェアエン" +
-            "ジニアです。コンピューターをいじったり、難しい問題に独創的な解決策を見つけたりするのが大好きです。私の専門分野は、フルスタックアプ" +
-            "リケーション、オペレーティングシステム、コンピューターネットワーク、組み込みシステムです。余暇には、個人的なプロジェクトに取り組ん" +
-            "だり、興味深いテクノロジーを研究してスキルを伸ばすのが好きです。私の作品をご覧になりたい場合や、私と話したい場合は、上のアイコ" +
-            "ンをクリックしてください。";
+        aboutBody.textContent = "こんにちは、マティアスと申します。パデュー大学でコンピュータサイエンスの学士号を取得したソフトウェアエンジニアです。 " +
+            "私はコンピュータを使った作業や、挑戦的な問題に対して創造的な解決策を見つけることが大好きです。 " +
+            "専門分野は、フルスタックアプリケーション、オペレーティングシステム、コンピュータネットワーク、組み込みシステムです。 " +
+            "余暇には、個人プロジェクトに取り組んだり、スキルを向上させるために興味深い技術を調査したりしています。 " +
+            "私の作品をご覧になりたい場合やお話ししたい場合は、上のアイコンをクリックしてください。";
         aboutBody.style.opacity = "1";
     }, 500);
 
@@ -184,7 +191,7 @@ japanese.addEventListener("click", () => {
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
-        copyright.textContent = "© 2024 マティアス・テジェダ・アスタブルアガ | " + 
+        copyright.textContent = "© 2025 マティアス・テジェダ・アスタブルアガ | " + 
         "HTMLとCSSとJavaScriptで作りました";
         copyright.style.opacity = "1";
     }, 500);
