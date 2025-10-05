@@ -69,13 +69,6 @@ english.addEventListener("click", () => {
         aboutBody.style.opacity = "1";
     }, 500);
 
-    // const projectsHeader = document.querySelector(".projects-header");
-    // projectsHeader.style.opacity = "0";
-    // setTimeout(() => {
-    //     projectsHeader.textContent = "Projects";
-    //     projectsHeader.style.opacity = "1";
-    // }, 500);
-
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
@@ -126,13 +119,6 @@ spanish.addEventListener("click", () => {
         aboutBody.style.opacity = "1";
     }, 500);
 
-    // const projectsHeader = document.querySelector(".projects-header");
-    // projectsHeader.style.opacity = "0";
-    // setTimeout(() => {
-    //     projectsHeader.textContent = "Proyectos";
-    //     projectsHeader.style.opacity = "1";
-    // }, 500);
-
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
     setTimeout(() => {
@@ -161,7 +147,7 @@ japanese.addEventListener("click", () => {
         title.style.opacity = "1";
     }, 500);
 
-    document.querySelector(".resume-icon").setAttribute("href", "assets/Matias Tejeda Astaburuaga Resume.pdf");
+    document.querySelector(".resume-icon").setAttribute("href", "assets/マティアス_テヘダ_アスタブルアガ_履歴書.pdf");
     
     const aboutHeader = document.querySelector(".about-header");
     aboutHeader.style.opacity = "0";
@@ -180,13 +166,6 @@ japanese.addEventListener("click", () => {
             "私の作品をご覧になりたい場合やお話ししたい場合は、上のアイコンをクリックしてください。";
         aboutBody.style.opacity = "1";
     }, 500);
-
-    // const projectsHeader = document.querySelector(".projects-header");
-    // projectsHeader.style.opacity = "0";
-    // setTimeout(() => {
-    //     projectsHeader.textContent = "プロジェクト";
-    //     projectsHeader.style.opacity = "1";
-    // }, 500);
 
     const copyright = document.querySelector(".copyright");
     copyright.style.opacity = "0";
